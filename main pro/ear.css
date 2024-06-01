@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: Oswald;
+    color: aliceblue;
+}
+/*                remove link tag                             */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: 0 15vw;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    
+}
+nav img{
+    width: 30px;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a{
+    font-weight: 800;
+    font-size: 16px;
+}
+nav ul li:first-child a{
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .nav-right{
+    display: flex;
+    align-items: center;
+  }
+  .nav-right button{
+    background-color: rgb(46, 41, 47);
+    font-size: 20px;
+    font-weight: 700px;
+    border-radius: 10px;
+    padding: 10px 40px;
+  }
+
+  /*                       main section                          */
+
+  main{
+    display: flex;
+    align-items:flex-start;
+    margin-top: 30px;
+    position: relative;
+  }
+  .mainimg{
+    width: 240px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+
+  }
+  .main{
+    margin-left: 200px;
+  }
+  .onear{
+    width: 350px;
+    margin-left: 50px;
+  }
+  .main h1{
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 28px;
+  }
+  .main h4{
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 28px;
+  }
+  .main p{
+    width: 65%;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 28px;
+  }
+  .shopping-bag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(46, 41, 47);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px 20px;
+    
+  }
+  .shopping-bag img{
+    width: 15px;
+    background-color: transparent;
+  }
+  .shopping-bag p{
+    margin: 0;
+    background-color: transparent;
+  }
+  .shopping-bag span{
+    background-color: transparent;
+  }
+
+  /*               social media section       */
+  .sos-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 50px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 45px;
+  }
+.sos-logo{
+  scale: 0.8;
+}
+/*         new section                  */
+
+.new-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section-logo,
+.case-logo{
+  scale: 0.8;
+  margin-bottom: 20px;
+}
+.section-list{
+  display: flex;
+}
+.section-list img{
+  scale: 0.8;
+}
+.section-item div{
+margin-bottom: 20px;
+}
+.section-item div img{
+  scale: 0.8;
+}
+.section-item div p:last-child {
+  color: #bdc0c2;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+.section-item div:first-child,
+.section-item  div:last-child {
+  margin-left: 35px;
+}
+/*         case section        */
+.case{
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.case-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.case-item img{
+  scale: 0.8;
+}
+.case-item div{
+  width: 20%;
+}
+.case-item div p:first-child {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.case-item div p:last-child img {
+  scale: 0.8;
+  background-color: transparent;
+}
+
+.case-item div p:last-child {
+  width: fit-content;
+  background: #1e1e21;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+/*                     shopping section             */
+.shop {
+  background: #181a1b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px 0;
+}
+
+.shop div,
+.shop p,
+.shop h3,
+.shop img {
+  background-color: transparent;
+}
+
+.shop div {
+  width: 25%;
+}
+
+.shop div h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.shop div p {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.shop div div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.shop div div img {
+  scale: 0.8;
+  margin-right: 10px;
+}
+
+.shop div div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+/* designing the product section for displaying the items */
+.pro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+}
+
+.pro-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-logo {
+  scale: 0.3;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+.card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+
+.pro-img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 28px;
+}
+
+.pro-img,
+.card p,
+.card span,
+.card img,
+.card div {
+  background-color: transparent;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.info p {
+  font-size: 12px;
+}
+
+.info p span {
+  color: #bdc0c2;
+}
+
+.info div {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.info div img {
+  width: 13px;
+  height: 13px;
+}
+
+footer{
+  margin: 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-logo{
+  scale: 0.8;
+}
+
+ul li a{
+  font-size: 12px;
+  color: #BDC0C2;
+}
+
+ul li:first-child a{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+ul li:first-child{
+  margin-bottom: 10px;
+}
+
+.sub{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sub div:first-child{
+  background: #181A1B;
+border-radius: 8px;
+padding: 5px 10px;
+display: flex;
+}
+
+.sub div:first-child input{
+  border: none;
+  background-color: transparent;
+}
+
+.sub-button{
+  background: #0A0A0B;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub-button img{
+  scale: 0.8;
+}
+
+.sub-button p{
+  font-size: 12px;
+}
+
+.sub div:last-child img{
+  margin-right: 10px;
+  scale: 0.8;
+}
+
+. {
+  position: absolute;
+  right: -160px;
+  scale: 0.8;
+}
